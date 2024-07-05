@@ -37,8 +37,11 @@ main {
   border: 1px solid black;
   display: flex;
   justify-content: space-around;
-  width: 98vw;
+
+  width: 80vw;
   height: 98vh;
+
+  margin: auto;
 }
 
 form {
@@ -51,11 +54,12 @@ form {
 
 .preview {
   width: 40vw;
-  height: 90vh;
+  height: 50vw;
   background-color: #eecece;
+  max-height: 97lvh;
 }
 
-.preview > h1 {
+pre {
   color: white;
   background-color: #3b3b3b;
   margin: 0;
@@ -68,7 +72,7 @@ form {
 #imagem {
 
   
-  background-image: url(image/modelo.png);
+  background-image: url(image/size.png);
   width: 70%;
   height: 90%;
   background-repeat: no-repeat;
@@ -76,22 +80,35 @@ form {
   background-position: center center;
   
   
+  
 }
 
 
 #flex {
-  width: 90%;   /* width: 496px; height: 700px;*/
-  height: 99%;
-  border: 3px solid #f70202;
-  background-color: #ffffff;
+  width: 100%;   /* width: 496px; height: 700px;*/
+  height: 40vw;
+  border: 3px solid #000000;
+  background-color: #ffffff00; 
 
-  flex-grow: 1;
-  flex-shrink: 1;
-  
-  
+  background-size: contain;
+
+  position: relative;
+  top: 32px;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: ;
+  flex-direction: column;
+}
+
+.espaco1 {
+  height: 11%;
+  background-color: #ffffff00;
 }
 
 .campanha {
+  height: 15%;
+
   text-align: center;
   padding: 4px;
   color: white;
@@ -101,21 +118,30 @@ form {
   font-weight: bolder;
   font-style: normal;
   font-size: 5vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .descricaoprincipal {
+  height: 20%;
 
-  text-align: center;
   color: black;
   background-color: #ff0000;
   font-weight: bolder;
   font-style: normal;
-  font-size: 2.5vw;
+  font-size: 2vw;
   text-transform: uppercase;
+
+  display: flex;
+  justify-content: center;
+  align-items: end;
 
 }
 
 .marca {
+  height: 15%;
 
   text-align: center;
   color: black;
@@ -124,9 +150,14 @@ form {
   font-style: normal;
   font-size: 3.5vw;
   text-transform: uppercase;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .descricaosec {
+  height: 7%;
 
   text-align: center;
   color: black;
@@ -136,9 +167,14 @@ form {
   font-size: 1.5vw;
   text-transform: uppercase;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .preco {
+  height: 35%;
   
   padding-bottom: 30px;
   text-align: center;
@@ -148,7 +184,13 @@ form {
   font-style: normal;
   text-transform: uppercase;
 
-  font-size: 10vw;
+  background-size: cover;
+
+  font-size: 8vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /*
 .normal {
@@ -165,7 +207,13 @@ form {
 }
 */
 
+.espaco {
+  height: 12%;
+  background-color: #ffffff00;
+}
+
 .descricaosec2 {
+  height: 6%;
 
   text-align: center;
   color: black;
@@ -174,20 +222,29 @@ form {
   font-style: normal;
   font-size: 1.4vw;
   text-transform: uppercase;
-  padding-top: 25px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 
 }
 
 .embalagem{
+  height: 6%;
 
   text-align: center;
   color: black;
   background-color: #00ffff;
   font-weight: bolder;
   font-style: normal;
-  font-size: 1.4vw;
+  font-size: 1.2vw;
   text-transform: uppercase;
   padding-bottom: 8px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
