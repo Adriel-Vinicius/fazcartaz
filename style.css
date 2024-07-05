@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  width: 98vw;
+  height: 98vh;
+}
+
+form {
+  display: block;
+}
+
+.formularios { 
+}
+
+
+.preview {
+  width: 50%;
+  height: 90%;
+  background-color: #eecece;
+  margin: 0;
+  padding: 0;
+}
+
+.preview > h1 {
+  color: white;
+  background-color: #3b3b3b;
+  margin: 0;
+  padding: 5px;
+  font-weight: lighter;
+  font-family: sans-serif;
+  font-size: 1em;
+}
+
+
+#cartaz {
+  display: inline-block;
+  width: 80%;  /* width: 496px; height: 700px;*/
+  height: 700px;
+  border: 3px solid #f70202;
+  background-color: #ffffff;
+}
+
+.campanha {
+  text-align: center;
+  padding: 4px;
+  color: white;
+  background-color: #FA4D09;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 5vw;
+}
+
+.descricaoprincipal {
+
+  text-align: center;
+  color: black;
+  position: relative;
+  top: 20px;
+  background-color: #ff0000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 2.5vw;
+  text-transform: uppercase;
+  
+}
+
+.marca {
+
+  text-align: center;
+  color: black;
+  position: relative;
+  top: 30px;
+  background-color: #00ff00;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 3.5vw;
+  text-transform: uppercase;
+}
+
+.descricaosec {
+
+  text-align: center;
+  color: black;
+  position: relative;
+  top: 40px;
+  background-color: #0000ff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  
+}
+
+.preco {
+
+  text-align: center;
+  color: black;
+  position: relative;
+  top: 20%;
+  background-color: #ff00ff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 11vw;
+  text-transform: uppercase;
+  padding: 0px;
+  
+}
+
+
+.descricaosec2{
+
+  text-align: center;
+  color: black;
+  position: absolute;
+  top: 75%;
+  left: 51%;
+  transform: translate(50%);
+  background-color: #ffff00;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 1.4vw;
+  text-transform: uppercase;
+  
+}
+
+.embalagem{
+
+  text-align: center;
+  color: black;
+  position: absolute;
+  top: 78%;
+  left: 46%;
+  transform: translate(50%);
+  background-color: #00ffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 1.4vw;
+  text-transform: uppercase;
+  
+}
+
+
+
+.button {
+  display: inline-block;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
