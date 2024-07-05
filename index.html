@@ -10,21 +10,21 @@
 
 <body>
 
-  
+
   <main>
       <section id="formularios">
        <form action="" method="post" autocomplete="off">
          <fieldset>
            <legend>Modelo de cartaz</legend>
-  
+
           <p>
             <label for="itext">Campanha:</label>  
             <input type="text" name="texto" id="itext" oninput="iresult.innerHTML = String(itext.value)" size="10" maxlength="15" placeholder="Oferta"> <br>
           </p>  
-  
-          
+
+
          </fieldset>
-       
+
 <!--===============================================================-->
         <fieldset>
           <legend>Descrição comercial</legend>
@@ -57,7 +57,7 @@
           <label for="iembalagem">Preço de embalagem:</label> 
           <input type="text" name="embalagem" id="iembalagem" value="Caixa com x unidades = R$ 99,99" maxlength="40" placeholder="Caixa com x unidades = R$ 99,99" size="25" oninput="embalagemresult.innerHTML = String(iembalagem.value)"> <br>
         </p> 
-          
+
         </fieldset>
 
     </form>      
@@ -66,45 +66,86 @@
 <!--================================================================-->
   <section class="preview">
     <h1>Pré-visualização</h1>
-    <section class="center">
-      <section id="cartaz">
+   
+      <div class="center">
+        <div id="imagem">
         
-          <div class="campanha">
-            <output id="iresult">oferta</output>
-           </div>
-
-          <div class="descricaoprincipal">
-            <output id="iprincipalresult">Descrição principal</output>   
-          </div>
-
-          <div class="marca">
+            <div id="flex"> 
+              
+                <div class="campanha">
+                  <output id="iresult">oferta</output>
+                 </div>
+          
+                <div class="descricaoprincipal">
+                  <output id="iprincipalresult">Descrição principal</output>   
+                </div>
+          
+                <div class="marca">
+          
+                  <output id="marcaresult">Marca</output>
+                </div>
+          
+                <div class="descricaosec">
+                  <output id="secresult">Descrição secundaria</output>
+                </div>
+          
+                <div class="preco">
+                  <output id="precoresult"><span class="normal">0</span><span class="centavos">,00</span></output>
+                </div>
+          
+                <div class="descricaosec2">
+                  <output id="secresult2">Descrição secundaria 2</output>
+                </div>
+          
+                <div class="embalagem">
+                  <output id="embalagemresult">Caixa com x unidades = R$ 99,99</output>
+                </div>
+  
+      
             
-            <output id="marcaresult">Marca</output>
-          </div>
-
-          <div class="descricaosec">
-            <output id="secresult">Descrição secundaria</output>
-          </div>
-
-          <div class="preco">
-            <output id="precoresult">00,00</output>
-          </div>
-
-          <div class="descricaosec2">
-            <output id="secresult2">Descrição secundaria 2</output>
-          </div>
-
-          <div class="embalagem">
-            <output id="embalagemresult">Caixa com x unidades = R$ 99,99</output>
-          </div>
           
-
-          
-          
-      </section>
-    </section>
+        </div>
+        
+      </div>
+    
   </section>  
 <!--===============================================================-->
+
+    <!--<section id="cartaz">
+
+        <div class="campanha">
+          <output id="iresult">oferta</output>
+         </div>
+
+        <div class="descricaoprincipal">
+          <output id="iprincipalresult">Descrição principal</output>   
+        </div>
+
+        <div class="marca">
+
+          <output id="marcaresult">Marca</output>
+        </div>
+
+        <div class="descricaosec">
+          <output id="secresult">Descrição secundaria</output>
+        </div>
+
+        <div class="preco">
+          <output id="precoresult">00,00</output>
+        </div>
+
+        <div class="descricaosec2">
+          <output id="secresult2">Descrição secundaria 2</output>
+        </div>
+
+        <div class="embalagem">
+          <output id="embalagemresult">Caixa com x unidades = R$ 99,99</output>
+        </div>
+-->
+<!--===============================================================-->
+
+
+    </section>
   </main>
 </body>
 
