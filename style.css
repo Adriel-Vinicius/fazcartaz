@@ -1,35 +1,23 @@
 @charset "UTF-8";
 
-html {
-  height: 100%;
-  width: 100%;
-}
 
-* {
-  font-family: 'komika', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- 
-}
-
-
-
-
-@font-face {
-
-  font-family: 'KOMIKAX_';
-  src: url('fontes/Violense.ttf') format("truetype");
-}
 @font-face {
 
   font-family: 'komika';
-  src: url('fontes/Violense.otf') format("opentype");
+  src: url("font/KOMIKAX_.ttf") format('truetype');
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 :root {
 
-  --font1: 'KOMIKAX_', san-serif;;
-  --font2: 'komika';
-  
+  --komika: 'komika';
 }
+
 
 
 
@@ -65,7 +53,7 @@ pre {
   margin: 0;
   padding: 5px;
   font-weight: lighter;
-  font-family: sans-serif;
+  font-family: var(--komika);
   font-size: 1em;
 }
 
@@ -117,7 +105,8 @@ pre {
   font-family: var(--font1);
   font-weight: bolder;
   font-style: normal;
-  font-size: 5vw;
+  font-size: 4vw;
+  
 
   display: flex;
   justify-content: center;
@@ -131,8 +120,9 @@ pre {
   background-color: #ff0000;
   font-weight: bolder;
   font-style: normal;
-  font-size: 2vw;
+  font-size: 1.5vw;
   text-transform: uppercase;
+  font-family: var(--komika);
 
   display: flex;
   justify-content: center;
@@ -148,8 +138,9 @@ pre {
   background-color: #00ff00;
   font-weight: bolder;
   font-style: normal;
-  font-size: 3.5vw;
+  font-size: 2.5vw;
   text-transform: uppercase;
+  font-family: var(--komika);
 
   display: flex;
   justify-content: center;
@@ -164,8 +155,9 @@ pre {
   background-color: #0000ff;
   font-weight: bolder;
   font-style: normal;
-  font-size: 1.5vw;
+  font-size: 1vw;
   text-transform: uppercase;
+  font-family: var(--komika);
 
   display: flex;
   justify-content: center;
@@ -174,7 +166,7 @@ pre {
 }
 
 .preco {
-  height: 35%;
+  height: 39%;
   
   padding-bottom: 30px;
   text-align: center;
@@ -183,10 +175,11 @@ pre {
   font-weight: bolder;
   font-style: normal;
   text-transform: uppercase;
+  font-family: var(--komika);
 
   background-size: cover;
 
-  font-size: 8vw;
+  font-size: 7vw;
 
   display: flex;
   justify-content: center;
@@ -213,15 +206,16 @@ pre {
 }
 
 .descricaosec2 {
-  height: 6%;
+  height: 7%;
 
   text-align: center;
   color: black;
   background-color: #ffff00;
   font-weight: bolder;
   font-style: normal;
-  font-size: 1.4vw;
+  font-size: 1.2vw;
   text-transform: uppercase;
+  font-family: var(--komika);
 
   display: flex;
   justify-content: center;
@@ -238,9 +232,10 @@ pre {
   background-color: #00ffff;
   font-weight: bolder;
   font-style: normal;
-  font-size: 1.2vw;
+  font-size: 1vw;
   text-transform: uppercase;
   padding-bottom: 8px;
+  font-family: var(--komika);
 
   display: flex;
   justify-content: center;
