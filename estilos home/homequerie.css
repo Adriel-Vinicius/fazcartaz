@@ -8,23 +8,21 @@
 
 
   header {
-    background-color: rgb(218, 0, 0);
+    background-color: rgb(243, 7, 7);
   }
 
-  
-  span#burguer {
-      display: none;
+  nav > ul > li {
+    display: inline-block;
   }
 
-  body > nav {
-      display: block;
-  }
+  body > #burguer {
+    display: none;
 
-  body > nav > ul > li {
-  display: inline-block;
   }
-
 }
+
+
+
 
 
 @media screen and (min-width: 992px) {

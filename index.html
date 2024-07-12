@@ -19,11 +19,11 @@
   <span id="burguer" class="material-symbols-outlined" onclick="clickmenu ()">menu</span>
   <nav id="itens">
     <ul>
-      <li><a href="#" target="next">OPÇÃO 1</a></li>
-      <li><a href="#" target="next">OPÇÃO 2</a></li>
-      <li><a href="#" target="next">OPÇÃO 3</a></li>
-      <li><a href="#" target="next">OPÇÃO 4</a></li>
-      <li><a href="#" target="next">OPÇÃO 5</a></li>
+      <li><a href="#" target="next">HOME</a></li>
+      <li><a href="#" target="next">ÁREA DE TRABALHO</a></li>
+      <li><a href="#" target="next">SOBRE</a></li>
+      <li><a href="#" target="next">SOLUÇÕES</a></li>
+      <li><a href="#" target="next">CONTATO</a></li>
     </ul>
   </nav>
 
@@ -31,71 +31,68 @@
       <section class="section-1" id="basic-section">
       <h2>Apresentação</h2>
       <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
- 
+
         <button class="button-go" type="button" value="" formmethod="post">Vamos lá</button>
- 
+
         <button class="button-info" type="button" value="" formmethod="post">Como funciona?</button>
       </section>
- 
+
       <section id="basic-section">
         <h2>Sobre</h2>
         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
       </section>
- 
+
       <section id="basic-section" class="section-3">
-        <h2>Segmentos e Soluções</h2>
+        <h2>Destaque seu negocio, de forma praticidade e eficiência.</h2>
+        <div class="background-section-3"></div>
+      </section>
+  
+
+      <section id="basic-section" class="section-4">
+        <h2>Benefícios</h2>
         <div class="space-around">
-         
+
           <section class="space-section">
-            <h3>Title</h3>
-            <div class="section-3-image"></div>
+            <h3>Praticidade</h3>
+            <div id="praticidade"></div>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
           </section>
-     
-       
-   
+
+
+
           <section class="space-section">
-            <h3>Title</h3>
-            <div class="section-3-image"></div>
+            <h3>Padronização</h3>
+            <div id="padronizacao"></div>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
           </section>
-   
+
           <section class="space-section">
-            <h3>Title</h3>
-            <div class="section-3-image"></div>
+            <h3>Agilidade</h3>
+            <div id="agilidade"></div>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
           </section>
- 
          
         </div>
- 
-     
+
       </section>
-
- 
- 
-
-
-
-
-    <section id="basic-section" class="section-4">
-      <h2>Title</h2>
-      <div class="background-section-4"></div>
-    </section>
-
+   
+    
 
     <section id="basic-section" class="section-5">
-      <h2>Sobre</h2>
-      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-     
-     
+      <h2>Compromisso</h2>
+      <p>Nossa missão é ajudar você a transformar suas ofertas em cartazes atraentes que chamem a atenção e aumentem suas vendas. Experimente o CriaCartaz e veja como é fácil criar comunicações visuais de alta qualidade para seu estabelecimento!</p>
+
+
         <div class="section-3-image"></div>
-     
+
     </section>
-   
+
   </main>
 
 
 
   <footer>
-   
+
   </footer>
 
   <footer>  
@@ -118,12 +115,12 @@
     }
 
     function tamanho () {
-        if (window.innerWidth >= 798) {
+        if (window.innerWidth >= 768) {
             itens.style.display = 'block'
           }  else {
                 itens.style.display = 'none'
             }
-        
+
     }
 
     </script>
